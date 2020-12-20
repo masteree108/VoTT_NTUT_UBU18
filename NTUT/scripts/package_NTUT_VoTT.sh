@@ -9,9 +9,7 @@ if [ -d "../../releases" ]; then
 	mv UBU18 Linux
 	cd Linux/UBU18
 	mkdir -p NTUT/exe
-	mkdir -p NTUT/services
 	cp ../../../NTUT/exe/vott_tracker.exe ./NTUT/exe/
-	cp ../../../NTUT/services/run_vott_tracker.js ./NTUT/services/
 	cd ../../../
 	mv NTUT_VoTT ../../../
 else
