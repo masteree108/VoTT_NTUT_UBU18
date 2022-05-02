@@ -10,6 +10,7 @@ if [ -d "../../releases" ]; then
 	cd Linux/UBU18
 	mkdir -p NTUT/exe
 	cp ../../../NTUT/exe/vott_tracker.exe ./NTUT/exe/
+	cp -af ../../../NTUT/yolo-coco_v3/ ./NTUT/
 	cd ../../../
 	mv NTUT_VoTT ../../../
 else
