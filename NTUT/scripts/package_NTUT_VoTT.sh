@@ -12,7 +12,7 @@ if [ -d "../../releases" ]; then
 	cp ../../../NTUT/exe/vott_tracker.exe ./NTUT/exe/
 	cp -af ../../../NTUT/yolo-coco_v3/ ./NTUT/
 	cd ../../../
-	mv NTUT_VoTT ../../../
+	mv NTUT_VoTT ../
 else
 	echo "Directory ../../../releases does not exists"
 fi
